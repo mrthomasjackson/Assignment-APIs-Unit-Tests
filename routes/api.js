@@ -3,6 +3,7 @@ module.exports = function (express) {
 
     router.get('/v1', function(req, res){
         res.json({hello: 'World'});
+        console.log('API delivered')
     });
 
     return router;
