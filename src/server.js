@@ -3,7 +3,7 @@ var body_parser = require('body-parser');
 var app = express();
 
 //Config
-var port = 3001;
+var port = 80;
 
 app.use(body_parser.json());
 
